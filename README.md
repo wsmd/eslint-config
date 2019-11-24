@@ -1,9 +1,23 @@
-<div align="center">
-<img src="https://user-images.githubusercontent.com/2100222/69502659-978ddb00-0f09-11ea-9b17-817f1cf6826a.png" width="442" />
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/2100222/69502659-978ddb00-0f09-11ea-9b17-817f1cf6826a.png" width="442" />
 
-# @wsmd/eslint-config
+  @wsmd/eslint-config
+</h1>
 
-</div>
+<p align="center">
+  <a href="https://www.npmjs.com/package/@wsmd/eslint-config">
+    <img src="https://img.shields.io/npm/v/@wsmd/eslint-config.svg" alt="Current Release" />
+  </a>
+  <a href="https://travis-ci.org/wsmd/eslint-config">
+    <img src="https://travis-ci.org/wsmd/eslint-config.svg?branch=master" alt="CI Build">
+  </a>
+  <a href="https://coveralls.io/github/wsmd/eslint-config?branch=master">
+    <img src="https://coveralls.io/repos/github/wsmd/eslint-config/badge.svg?branch=master" alt="Coverage Status">
+  </a>
+  <a href="https://github.com/wsmd/eslint-config/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/wsmd/eslint-config.svg" alt="Licence">
+  </a>
+</p>
 
 All-in-one, composable, ESLint configurations with support for:
 
@@ -212,8 +226,8 @@ You can still override these rules and customize others in your ESLint config fi
 {
   "extends": [
     "@wsmd/eslint-config/base",
-    "@wsmd/eslint-config/prettier",
     "@wsmd/eslint-config/typescript",
+    "@wsmd/eslint-config/prettier",
     "@wsmd/eslint-config/jest"
   ],
   "rules": {
