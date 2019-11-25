@@ -10,12 +10,12 @@ module.exports = {
     browser: true,
   },
   extends: [
+    'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
   ],
   rules: {
     '@typescript-eslint/no-unused-vars': 'error',
-    '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/explicit-member-accessibility': [
       'error',
@@ -38,5 +38,8 @@ module.exports = {
         allowExpressions: true,
       },
     ],
+    // overriding the eslint rule with the typescript rule (it throws otherwise)
+    'no-useless-constructor': 'off',
+    '@typescript-eslint/no-useless-constructor': 'error',
   },
 };
