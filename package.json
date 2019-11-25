@@ -1,9 +1,12 @@
 {
   "name": "@wsmd/eslint-config",
+  "version": "1.0.0",
+  "description": "All-in-one, composable, ESLint configurations with support for TypeScript, React, Prettier, and Jest",
+  "author": "Waseem Dahman <dwaseem@icloud.com>",
   "license": "MIT",
-  "version": "0.1.0",
-  "author": "Waseem Dahman (dwaseem@icloud.com)",
-  "description": "All-in-one, composable, ESLint configurations with support for TypeScript, React, and Jest",
+  "bugs": {
+    "url": "https://github.com/wsmd/eslint-config/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/wsmd/eslint-config"
@@ -48,6 +51,7 @@
     "airbnb",
     "javascript",
     "styleguide",
+    "react",
     "es2015",
     "es2016",
     "es2017",
