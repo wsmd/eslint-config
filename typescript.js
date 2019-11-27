@@ -14,9 +14,13 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
   ],
+  settings: {
+    'import/resolver': {
+      typescript: {},
+    },
+  },
   rules: {
     '@typescript-eslint/no-unused-vars': 'error',
-    '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/explicit-member-accessibility': [
       'error',
       {
@@ -36,6 +40,19 @@ module.exports = {
       'warn',
       {
         allowExpressions: true,
+      },
+    ],
+    '@typescript-eslint/no-explicit-any': [
+      'warn',
+      {
+        ignoreRestArgs: true,
+      },
+    ],
+    '@typescript-eslint/camelcase': [
+      'error',
+      {
+        properties: 'never',
+        ignoreDestructuring: true,
       },
     ],
     // overriding the eslint rule with the typescript rule (it throws otherwise)
