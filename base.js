@@ -9,5 +9,6 @@ module.exports = {
     'no-empty': ['error', { allowEmptyCatch: true }],
     'import/prefer-default-export': 'off',
     'class-methods-use-this': 'off',
+    'no-plusplus': 'off',
   },
 };
