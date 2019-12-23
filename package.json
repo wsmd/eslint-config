@@ -1,6 +1,6 @@
 {
   "name": "@wsmd/eslint-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "All-in-one, composable, ESLint configurations with support for TypeScript, React, Prettier, and Jest",
   "author": "Waseem Dahman <dwaseem@icloud.com>",
   "license": "MIT",
